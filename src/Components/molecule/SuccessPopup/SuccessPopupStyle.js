@@ -2,11 +2,10 @@ import styled from 'styled-components'
 import Colors from '../../../helpers/Colors'
 
 const SuccessPopupStyle = styled.div`
-
   .success-popup {
     position: absolute;
     bottom: 0px;
-    margin-bottom: -10px;
+    margin-bottom: -20px;
     background-color: ${Colors.successBg};
     padding: 10px 16px 10px 16px;
     border-radius: 8px;
