@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import RequestFormStyle from './RequestFormStyle'
 import Button from '../../atoms/Button/Button'
+import SuccessPopup from '../../molecule/SuccessPopup/SuccessPopup'
 
 const RequestForm = () => {
   const [formData, setFormData] = useState({
@@ -12,6 +13,8 @@ const RequestForm = () => {
   })
 
   const [isButtonDisabled, setIsButtonDisabled] = useState(true)
+  const [showSuccessPopup, setShowSuccessPopup] = useState(false)
+  const [popupClass, setPopupClass] = useState('hide')
 
   useEffect(() => {
     const { name, email, phone, address, messageRequest } = formData
@@ -33,6 +36,19 @@ const RequestForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     console.log('Form Data:', formData)
+    setPopupClass('show')
+    setShowSuccessPopup(true)
+    setTimeout(() => {
+      setPopupClass('hide')
+      setTimeout(() => setShowSuccessPopup(false), 500)
+    }, 3000)
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      address: '',
+      messageRequest: '',
+    })
   }
 
   return (
@@ -113,6 +129,7 @@ const RequestForm = () => {
           />
         </form>
       </section>
+      {showSuccessPopup && <SuccessPopup className={popupClass} />}
     </RequestFormStyle>
   )
 }

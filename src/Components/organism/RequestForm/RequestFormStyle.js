@@ -2,12 +2,14 @@ import styled from 'styled-components'
 import Colors from '../../../helpers/Colors'
 
 const RequestFormStyle = styled.div`
+  position: relative;
   .request-container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 2.5rem;
+    height: 550px;
     background: linear-gradient(
       90deg,
       #77582a 6.78%,
@@ -17,6 +19,7 @@ const RequestFormStyle = styled.div`
     );
     border-radius: 8px;
     padding: 1.75rem 0px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 
   .request-header-text {
