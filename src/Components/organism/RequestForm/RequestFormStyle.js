@@ -51,6 +51,18 @@ const RequestFormStyle = styled.div`
       padding-bottom: 8px;
     }
 
+    label {
+      span {
+        color: ${Colors.danger};
+        font-weight: bold;
+      }
+    }
+
+    .error {
+      color: ${Colors.danger};
+      font-weight: bold;
+    }
+
     input {
       width: 250px;
       height: 42px;
@@ -58,6 +70,7 @@ const RequestFormStyle = styled.div`
       border-radius: 8px;
       color: ${Colors.black};
       border: 1px solid ${Colors.inputBorder};
+      font-family: Inter;
     }
     textarea {
       width: 100%;
@@ -67,12 +80,13 @@ const RequestFormStyle = styled.div`
       color: ${Colors.black};
       border: 1px solid ${Colors.inputBorder};
       resize: none;
+      font-family: Inter;
     }
   }
 
   input:focus,
   textarea:focus {
-    outline: 2px solid ${Colors.brand};
+    outline: 2px solid ${Colors.neutral};
   }
   .request-btn {
     width: 130px;
@@ -86,6 +100,11 @@ const RequestFormStyle = styled.div`
     line-height: 13.04px;
     text-align: center;
     margin-top: 8px;
+  }
+
+  .request-btn.disabled {
+    background-color: ${Colors.disabled};
+    cursor: no-drop;
   }
 `
 export default RequestFormStyle
