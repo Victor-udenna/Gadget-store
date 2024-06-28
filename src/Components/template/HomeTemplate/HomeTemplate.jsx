@@ -1,4 +1,5 @@
 import Footer from '../../organism/Footer/Footer'
+import RequestForm from '../../organism/RequestForm/RequestForm'
 import HomeTemplateStyle from './HomeTemplateStyle'
 
 const HomeTemplate = () => {
@@ -95,24 +96,8 @@ const HomeTemplate = () => {
       corrupti reiciendis delectus? Soluta ad sapiente qui illo quasi debitis at
       maxime officia ratione dignissimos sequi, dicta saepe blanditiis dolorum
       fuga magnam cupiditate vitae cumque assumenda accusamus rem. Odit ipsum
-      saepe quia ipsa nihil sit, asperiores quidem voluptate, fugit possimus
-      corporis cum facilis fugiat ea? Aspernatur voluptatum exercitationem ut
-      natus, quia aliquam ducimus libero, repellendus quo a iusto unde id ipsum
-      nam rem sit distinctio. Vel dicta voluptatibus sed molestias repellat?
-      Fugiat voluptas eveniet, amet rerum maxime eum officiis ratione obcaecati
-      velit. Animi totam eius hic, aperiam dolores commodi odio sunt, harum aut
-      beatae fuga numquam quae in, eos maiores obcaecati modi asperiores!
-      Dolorum alias nulla, repellendus harum perferendis eius necessitatibus
-      eaque molestiae recusandae quibusdam totam modi magni voluptates earum?
-      Veritatis, eligendi quis explicabo totam reiciendis omnis saepe
-      praesentium temporibus fugiat incidunt eum architecto eos obcaecati
-      accusantium culpa iusto molestiae. Ratione voluptate deleniti ipsam
-      officia? Eaque libero perspiciatis maiores tempore reprehenderit. Possimus
-      quisquam natus inventore commodi corporis consequatur quod magnam
-      consequuntur repellat, voluptatum temporibus laboriosam porro est
-      perspiciatis iste hic officia voluptatem nostrum reprehenderit
-      voluptatibus, amet mollitia, iusto maxime. Ipsum impedit ducimus ea facere
-      id.
+      saepe quia ipsa nihil sit, asperiores quidem voluptate, fugit possimus id.
+      <RequestForm />
       <Footer />
     </HomeTemplateStyle>
   )
