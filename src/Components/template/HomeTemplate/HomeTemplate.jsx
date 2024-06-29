@@ -1,3 +1,4 @@
+import BestSeller from '../../organism/BestSeller/BestSeller'
 import BrandPanter from '../../organism/BrandPatner/BrandPanter'
 import Footer from '../../organism/Footer/Footer'
 import RequestForm from '../../organism/RequestForm/RequestForm'
@@ -54,39 +55,7 @@ const HomeTemplate = () => {
       assumenda. Eligendi, necessitatibus consectetur at cupiditate suscipit ut
       doloremque dolores ratione, aliquam exercitationem repudiandae explicabo
       adipisci ipsa totam obcaecati labore dolor fuga alias atque a eaque
-      eveniet sit eos! Eveniet sapiente neque reiciendis saepe ea qui!
-      Praesentium unde voluptas laborum et voluptatem debitis magnam odit totam
-      laboriosam. Dolores excepturi blanditiis, voluptatem iure impedit debitis
-      quod quas atque enim ipsa velit expedita ducimus. Sed deleniti at ipsam
-      laborum aliquid saepe perspiciatis rerum, nam officiis nesciunt
-      voluptatibus placeat reprehenderit, similique odio obcaecati aliquam ab
-      dolore non dolor fugit! Vitae suscipit explicabo inventore minima
-      dignissimos quas ullam, vel aut voluptates rem expedita nesciunt assumenda
-      aspernatur labore aliquid. Culpa a illo perferendis impedit quam provident
-      ipsam aspernatur inventore nesciunt! Esse, nisi ut? Temporibus
-      perferendis, tenetur et non velit maxime ea quae maiores earum
-      repudiandae, ullam, minima incidunt. Repellat laborum architecto dicta,
-      aut aliquam voluptatum, eius molestias beatae consequatur nulla voluptates
-      nesciunt error sapiente odit minus iusto nisi atque adipisci fuga quasi
-      sint blanditiis perferendis? Vel quas nihil magnam, soluta non
-      reprehenderit dicta hic at voluptate sapiente facilis ipsam, est, libero
-      fuga. Ad cumque qui debitis vero culpa voluptates facere optio sed dicta
-      nemo quibusdam, sit earum quidem aliquam velit voluptatem id fugit ut
-      tenetur harum fugiat distinctio maiores. Error similique, doloribus
-      nesciunt assumenda non labore perferendis sunt dolor animi tempora quasi
-      minima nostrum at ipsum numquam ut debitis necessitatibus blanditiis est.
-      Consectetur eum, odio similique ad incidunt earum animi reiciendis
-      voluptates eos qui expedita possimus ea, tempore harum saepe accusamus
-      minus inventore et aliquid sapiente nisi quaerat quidem repellat! Aliquid
-      temporibus distinctio modi exercitationem, accusamus delectus assumenda
-      odio, deleniti ad corporis vel eligendi sapiente quisquam consequatur,
-      laboriosam iusto accusantium nostrum saepe nihil quam. Nisi ratione, nulla
-      fuga qui quisquam consequuntur id natus? Nesciunt, cupiditate odit dolores
-      expedita commodi distinctio. Consequuntur consequatur perspiciatis ea
-      minima perferendis blanditiis, ipsum assumenda eum hic, dolorum quo
-      voluptatibus! Laudantium reiciendis suscipit voluptatibus adipisci illum
-      eum. Earum odit tempore, similique perspiciatis aperiam nisi! Perspiciatis
-      praesentium cumque veritatis doloribus tempora atque distinctio obcaecati
+      <BestSeller />
       <BrandPanter />
       <Testimonial />
       <RequestForm />
