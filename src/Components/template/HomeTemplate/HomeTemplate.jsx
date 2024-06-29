@@ -1,3 +1,4 @@
+import BrandPanter from '../../organism/BrandPatner/BrandPanter'
 import Footer from '../../organism/Footer/Footer'
 import RequestForm from '../../organism/RequestForm/RequestForm'
 import Testimonial from '../../organism/Testimonial/Testimonial'
@@ -86,18 +87,7 @@ const HomeTemplate = () => {
       voluptatibus! Laudantium reiciendis suscipit voluptatibus adipisci illum
       eum. Earum odit tempore, similique perspiciatis aperiam nisi! Perspiciatis
       praesentium cumque veritatis doloribus tempora atque distinctio obcaecati
-      ipsum alias hic quam nostrum itaque officia ut aliquam, vitae omnis
-      doloremque sunt animi inventore earum id! Qui necessitatibus facere
-      dolorem delectus harum quas quasi ipsum accusamus neque ad cupiditate
-      sapiente labore cum dicta, perspiciatis dolor hic rerum. Libero, sapiente
-      nulla adipisci voluptatum et error dolorum sequi, magnam dolor unde
-      molestias doloribus asperiores, consectetur nihil officiis cum temporibus
-      placeat minus sint ipsum. Quisquam minima architecto suscipit a
-      dignissimos, repellendus quia blanditiis modi veritatis, provident
-      corrupti reiciendis delectus? Soluta ad sapiente qui illo quasi debitis at
-      maxime officia ratione dignissimos sequi, dicta saepe blanditiis dolorum
-      fuga magnam cupiditate vitae cumque assumenda accusamus rem. Odit ipsum
-      saepe quia ipsa nihil sit, asperiores quidem voluptate, fugit possimus id.
+      <BrandPanter />
       <Testimonial />
       <RequestForm />
       <Footer />
