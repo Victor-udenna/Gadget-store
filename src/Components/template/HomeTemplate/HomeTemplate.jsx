@@ -1,5 +1,6 @@
 import Footer from '../../organism/Footer/Footer'
 import RequestForm from '../../organism/RequestForm/RequestForm'
+import Testimonial from '../../organism/Testimonial/Testimonial'
 import HomeTemplateStyle from './HomeTemplateStyle'
 
 const HomeTemplate = () => {
@@ -97,6 +98,7 @@ const HomeTemplate = () => {
       maxime officia ratione dignissimos sequi, dicta saepe blanditiis dolorum
       fuga magnam cupiditate vitae cumque assumenda accusamus rem. Odit ipsum
       saepe quia ipsa nihil sit, asperiores quidem voluptate, fugit possimus id.
+      <Testimonial />
       <RequestForm />
       <Footer />
     </HomeTemplateStyle>
