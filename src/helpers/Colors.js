@@ -11,6 +11,7 @@ const Colors = {
   labelTxt: '#E2E2E2',
   white: '#ffffff',
   black: '#000000',
+  dark: '#585858',
   inputBorder: '#6AB3F9',
   disabled: '#e8bc7b',
 }

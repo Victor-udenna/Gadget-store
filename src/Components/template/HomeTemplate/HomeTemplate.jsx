@@ -2,6 +2,7 @@ import BestSeller from '../../organism/BestSeller/BestSeller'
 import BrandPanter from '../../organism/BrandPatner/BrandPanter'
 import Footer from '../../organism/Footer/Footer'
 import OtherCategory from '../../organism/OtherCategory/OtherCategory'
+import OurService from '../../organism/OurServices/OurService'
 import Poster from '../../organism/Poster/Poster'
 import RequestForm from '../../organism/RequestForm/RequestForm'
 import Testimonial from '../../organism/Testimonial/Testimonial'
@@ -43,12 +44,7 @@ const HomeTemplate = () => {
       cum magnam a, facere repellat doloribus hic quaerat ratione culpa harum.
       Omnis quaerat laborum itaque recusandae animi ipsa impedit neque? Iusto
       corrupti laboriosam natus, totam consequuntur accusamus quo nihil sit ab.
-      Accusantium, voluptatum perspiciatis? Quae, alias delectus possimus itaque
-      omnis eaque labore quisquam consequatur rem libero fugiat laboriosam ad
-      repudiandae pariatur. Totam, aperiam delectus adipisci, quaerat placeat
-      voluptates quasi quo quae quisquam ex molestiae, consectetur autem. Vel,
-      vero explicabo consectetur cumque obcaecati quos nesciunt aspernatur
-      placeat voluptatibus modi beatae consequatur fugit molestiae quidem unde
+      <OurService />
       <Poster />
       <OtherCategory />
       <BestSeller />
