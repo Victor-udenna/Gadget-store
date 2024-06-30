@@ -1,6 +1,8 @@
 import BestSeller from '../../organism/BestSeller/BestSeller'
 import BrandPanter from '../../organism/BrandPatner/BrandPanter'
 import Footer from '../../organism/Footer/Footer'
+import OtherCategory from '../../organism/OtherCategory/OtherCategory'
+import Poster from '../../organism/Poster/Poster'
 import RequestForm from '../../organism/RequestForm/RequestForm'
 import Testimonial from '../../organism/Testimonial/Testimonial'
 import HomeTemplateStyle from './HomeTemplateStyle'
@@ -47,14 +49,8 @@ const HomeTemplate = () => {
       voluptates quasi quo quae quisquam ex molestiae, consectetur autem. Vel,
       vero explicabo consectetur cumque obcaecati quos nesciunt aspernatur
       placeat voluptatibus modi beatae consequatur fugit molestiae quidem unde
-      ab, soluta quod necessitatibus inventore maiores atque repellat. Odit
-      repellat ut expedita doloremque deserunt dolorum dignissimos ullam
-      perspiciatis. Vitae possimus cumque corrupti similique optio asperiores et
-      maiores quos inventore ex autem doloribus magni explicabo fuga culpa,
-      placeat odit consequatur sapiente repellendus porro molestias sint
-      assumenda. Eligendi, necessitatibus consectetur at cupiditate suscipit ut
-      doloremque dolores ratione, aliquam exercitationem repudiandae explicabo
-      adipisci ipsa totam obcaecati labore dolor fuga alias atque a eaque
+      <Poster />
+      <OtherCategory />
       <BestSeller />
       <BrandPanter />
       <Testimonial />

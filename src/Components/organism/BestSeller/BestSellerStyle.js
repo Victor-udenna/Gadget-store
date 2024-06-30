@@ -2,10 +2,6 @@ import styled from 'styled-components'
 
 const BestSellerStyle = styled.div`
   .best-seller {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     padding: 4rem 0px;
   }
   .best-seller-header {
@@ -19,8 +15,11 @@ const BestSellerStyle = styled.div`
   }
 
   .product-card-container {
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(236px, 1fr));
+    grid-auto-rows: minmax(236px, auto);
+    grid-auto-flow: dense;
     gap: 27px;
   }
 `
