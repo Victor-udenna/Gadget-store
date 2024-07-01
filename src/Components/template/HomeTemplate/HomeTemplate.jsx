@@ -3,6 +3,7 @@ import BestSeller from '../../organism/BestSeller/BestSeller'
 import BrandFeature from '../../organism/BrandFeature/BrandFeature'
 import BrandPanter from '../../organism/BrandPatner/BrandPanter'
 import Footer from '../../organism/Footer/Footer'
+import NavBar from '../../organism/NavBar/NavBar'
 import OtherCategory from '../../organism/OtherCategory/OtherCategory'
 import OurService from '../../organism/OurServices/OurService'
 import Poster from '../../organism/Poster/Poster'
@@ -13,6 +14,7 @@ import HomeTemplateStyle from './HomeTemplateStyle'
 const HomeTemplate = () => {
   return (
     <HomeTemplateStyle>
+      <NavBar />
       <Hero />
       <BrandFeature />
       <OurService />

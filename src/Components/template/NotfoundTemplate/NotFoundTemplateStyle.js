@@ -10,7 +10,7 @@ const NotFoundTemplateStyle = styled.div`
     padding: 24px;
     gap: 24px;
     width: 100%;
-    z-index: 100;
+    z-index: 10;
     position: fixed;
     top: 0px;
     bottom: 0px;

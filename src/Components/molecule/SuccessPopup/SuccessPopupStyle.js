@@ -9,7 +9,7 @@ const SuccessPopupStyle = styled.div`
     background-color: ${Colors.successBg};
     padding: 10px 16px 10px 16px;
     border-radius: 8px;
-    z-index: 100;
+    z-index: 10;
     display: flex;
     gap: 16px;
     left: 40%;

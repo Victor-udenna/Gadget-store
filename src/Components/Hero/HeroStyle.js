@@ -9,7 +9,7 @@ const HeroStyle = styled.div`
     justify-content: center;
     flex-direction: column;
     gap: 4rem;
-    padding: 5rem 0px;
+    padding: 11.5rem 0px 6rem 0px;
     background-image: url(${heroBg});
     background-repeat: no-repeat;
     background-position: bottom;
