@@ -11,11 +11,11 @@ const OurService = () => {
   return (
     <OurServiesStyle>
       <section className="container our-services">
-        <h2 className="our-service-header">Services We Offer</h2>
+        <h2 className="our-service-header">Our Offerings</h2>
         <div className="service-card-container">
           <div className="service-card">
             <div className="service-cardimg-container">
-              <Img image={laptopsalesImg} className="servie-cardimg" />
+              <Img image={laptopsalesImg} className="service-cardimg" />
             </div>
             <div className="service-cardtext-container">
               <Text
@@ -24,33 +24,28 @@ const OurService = () => {
               />
               <Text
                 className={'ourservice-card-desc'}
-                value="Lorem ipsum dolor sit amet consectetur. Pharetra ac in viverra facili
-              si tristique sed sem. Faucibus pellentesque dolor orci turpis augue. Vel sit at amet faucibus tellus arcu.
-               Netus venenatis nibh a urna auctor quam enim. Mauris massa sit nunc tortor at duis m enim. Mauris massa sit nunc tortor at duis.
-        "
+                value="We offer a wide range of laptops from leading brands to meet your needs. Whether you're looking for a powerful gaming laptop or a sleek and portable ultrabook, we have the perfect laptop for you. Our knowledgeable staff can help you find the best laptop to fit your budget and requirements."
               />
             </div>
           </div>
           <div className="service-card">
             <div className="service-cardimg-container">
-              <Img image={soffinstallImg} className="servie-cardimg" />
+              <Img image={soffinstallImg} className="service-cardimg" />
             </div>
             <div className="service-cardtext-container">
               <Text
                 className={'ourservice-card-header'}
-                value={'Software Installation'}
+                value={'Software Setup'}
               />
               <Text
                 className={'ourservice-card-desc'}
-                value="Lorem ipsum dolor sit amet consectetur. Pharetra ac in viverra facili
-              si tristique sed sem. Faucibus pellentesque dolor orci turpis augue. Vel sit at amet faucibus tellus arcu.
-               Netus venenatis nibh a urna auctor quam enim. Mauris massa sit nunc tortor at duis m enim. Mauris massa sit nunc tortor at duis."
+                value="Our experts can help you install and configure software to suit your specific requirements. From operating systems to productivity software and specialized applications, we ensure a seamless setup process so you can start using your software immediately without any hassle."
               />
             </div>
           </div>
           <div className="service-card">
             <div className="service-cardimg-container">
-              <Img image={repairImg} className="servie-cardimg" />
+              <Img image={repairImg} className="service-cardimg" />
             </div>
             <div className="service-cardtext-container">
               <Text
@@ -59,26 +54,22 @@ const OurService = () => {
               />
               <Text
                 className={'ourservice-card-desc'}
-                value="Lorem ipsum dolor sit amet consectetur. Pharetra ac in viverra facili
-              si tristique sed sem. Faucibus pellentesque dolor orci turpis augue. Vel sit at amet faucibus tellus arcu.
-               Netus venenatis nibh a urna auctor quam enim. Mauris massa sit nunc tortor at duis m enim. Mauris massa sit nunc tortor at duis."
+                value="We provide comprehensive repair services to ensure your laptop runs smoothly. Whether it's a hardware issue like a broken screen or a software problem causing your laptop to slow down, our experienced technicians can diagnose and fix the issue quickly and efficiently."
               />
             </div>
           </div>
           <div className="service-card">
             <div className="service-cardimg-container">
-              <Img image={bulkImg} className="servie-cardimg" />
+              <Img image={bulkImg} className="service-cardimg" />
             </div>
             <div className="service-cardtext-container">
               <Text
                 className={'ourservice-card-header'}
-                value={'Buck Sale of Accessories'}
+                value={'Bulk Accessory Sales'}
               />
               <Text
                 className={'ourservice-card-desc'}
-                value="Lorem ipsum dolor sit amet consectetur. Pharetra ac in viverra facili
-              si tristique sed sem. Faucibus pellentesque dolor orci turpis augue. Vel sit at amet faucibus tellus arcu.
-               Netus venenatis nibh a urna auctor quam enim. Mauris massa sit nunc tortor at duis m enim. Mauris massa sit nunc tortor at duis."
+                value="Purchase accessories in bulk and enjoy special discounts for large orders. We offer a wide range of accessories including chargers, mouse, keyboards, and more. Our bulk sales service is perfect for businesses, schools, and organizations looking to equip their teams with the necessary tech accessories."
               />
             </div>
           </div>

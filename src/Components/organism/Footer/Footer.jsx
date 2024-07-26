@@ -4,16 +4,12 @@ import Img from '../../atoms/Image/Img'
 import twitterIcon from '../../../assets/icons/Twitter.svg'
 import WhastappIcon from '../../../assets/icons/Whatsapp-icon.svg'
 import facebookIcon from '../../../assets/icons/Facebook.svg'
-import logo from '../../../assets/Images/crystal-ace-logo.svg'
 
 const Footer = () => {
   return (
     <FooterStyle>
       <footer className="container footer">
         <div className="footer-content">
-          <div>
-            <Img alt={'brand logo'} image={logo} />
-          </div>
           <div className="footer-link-container">
             <ul>
               <li className="footer-link-header">Visit Link</li>
@@ -24,24 +20,32 @@ const Footer = () => {
 
             <ul>
               <li className="footer-link-header">Company</li>
-              <li className="footer-link-item">Home</li>
-              <li className="footer-link-item">About us</li>
-              <li className="footer-link-item">Send a request</li>
+              <li className="footer-link-item">
+                {' '}
+                <a href="#home">Home</a>
+              </li>
+              <li className="footer-link-item">
+                <a href="#about">About us</a>
+              </li>
+              <li className="footer-link-item">
+                <a href="#contact">Send a request</a>
+              </li>
             </ul>
             <ul>
               <li className="footer-link-header">Contact</li>
               <li className="footer-link-item">
-                +234 806 000 0007 <br /> <br />
-                +234 706 000 0009
+                Tel: <a href="tel:+1234567890">+1 (234) 567-890</a>
               </li>
-              <li className="footer-link-item">Crystalace@gmail.com</li>
+              <li className="footer-link-item">
+                {' '}
+                Email:{' '}
+                <a href="mailto:support@techserve.com">support@techserve.com</a>
+              </li>
             </ul>
             <ul>
               <li className="footer-link-header">Address</li>
               <li className="footer-link-item">
-                2B, Adeyemo akapo street omole
-                <br />
-                <br /> phase 1 ojodu, Ikeja, Lagos
+                Address: 123 Tech Street, Tech City, TX 75001
               </li>
             </ul>
           </div>

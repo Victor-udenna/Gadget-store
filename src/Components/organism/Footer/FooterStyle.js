@@ -11,6 +11,7 @@ const FooterStyle = styled.div`
     gap: 16.1rem;
     border-bottom: 1px solid ${Colors.border};
     padding-bottom: 2rem;
+    /* background-color: red; */
     ul {
       list-style-type: none;
       display: flex;
@@ -19,6 +20,22 @@ const FooterStyle = styled.div`
       li {
         padding: 10px 0px;
       }
+    }
+  }
+
+  li {
+    font-size: 15.5px;
+    font-weight: 600;
+
+    a {
+      color: ${Colors.black};
+      text-decoration: none;
+      transition: color 0.3s ease, text-decoration 0.3s ease;
+    }
+
+    a:hover {
+      color: ${Colors.red};
+      text-decoration: underline;
     }
   }
 
@@ -31,8 +48,7 @@ const FooterStyle = styled.div`
   }
 
   .logo {
-    width: 123px;
-    height: 118px;
+    padding-top: 20px;
   }
 
   .footer-link-header {
@@ -75,6 +91,13 @@ const FooterStyle = styled.div`
       width: 24px;
       height: 24px;
       cursor: pointer;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .footer-content,
+    .footer-link-container {
+      flex-direction: column;
     }
   }
 `

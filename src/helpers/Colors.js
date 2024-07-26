@@ -1,5 +1,5 @@
 const Colors = {
-  brand: '#FF9900',
+  brand: '#FF0000', // Updated to red
   success: '#37BD6B',
   successBg: '#B6EACD',
   danger: '#F33535',
@@ -13,7 +13,8 @@ const Colors = {
   black: '#000000',
   dark: '#585858',
   inputBorder: '#6AB3F9',
-  disabled: '#e8bc7b',
+  disabled: '#FFC1C1',
+  transparentDark: '#00000052',
 }
 
 export default Colors

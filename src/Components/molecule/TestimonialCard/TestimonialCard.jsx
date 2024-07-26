@@ -3,22 +3,18 @@ import TestimonialCardStyle from './TestimonialCardStyle'
 import Img from '../../atoms/Image/Img'
 import quoteIcon from '../../../assets/icons/quote-icon.svg'
 import Text from '../../atoms/Text/Text'
-import avatar from '../../../assets/Images/avatar.png'
 
-const TestimonialCard = () => {
+const TestimonialCard = ({ text, name }) => {
   return (
     <TestimonialCardStyle>
       <div className="testimonial-card">
-        <Img className={'quote-icon'} image={quoteIcon} alt={quoteIcon} />
+        <Img className={'quote-icon'} image={quoteIcon} alt="Quote Icon" />
         <Text
           className="testimonial-card-text"
-          value={
-            'Lorem ipsum dolor sit amet consectetur. Nunc convallis tortor augue cursus. Quam dui dis purus.'
-          }
+          value={text}
         />
-        <div className='avatar-info'>
-          <Img className={'avatar-img'} image={avatar} />
-          <Text className={'avatar-name'} value={'Jessica Fortune'} />
+        <div className="avatar-info">
+          <Text className={'avatar-name'} value={name} />
         </div>
       </div>
     </TestimonialCardStyle>

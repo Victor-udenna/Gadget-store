@@ -7,20 +7,20 @@ import posterImg from '../../../assets/Images/poster-img.svg'
 const Poster = () => {
   return (
     <PosterStyle>
-      <section className=" container poster">
-        <div className='poster-text-container'>
+      <section className="container poster">
+        <div className="poster-text-container">
           <h2 className="poster-header">
-            Aggrandize Your
-            <br /> Computing Experience
+            Elevate Your
+            <br /> Digital Lifestyle
           </h2>
           <Text
             className={'poster-text'}
             value={
-              'Lorem ipsum dolor sit amet consectetur. Fringilla in posuere egestas pulvinar massa tristique viverra tortor integer. Sed quis at scelerisque viverra quis fermentum volutpat lobortis. Euismod porttitor ullamcorper ac mattis.'
+              'Enhance your daily routine with our high-performance laptops. Perfectly balanced for work and play, they offer exceptional power and portability.'
             }
           />
         </div>
-        <Img className="" image={posterImg} />
+        <Img className="poster-img" image={posterImg} />
       </section>
     </PosterStyle>
   )

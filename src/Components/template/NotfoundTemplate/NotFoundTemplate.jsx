@@ -27,7 +27,7 @@ const NotFoundTemplate = () => {
             }}
             className="home-btn"
           >
-            Go to crystalace
+            Go to TechServe
           </button>
         </div>
       </div>

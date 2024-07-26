@@ -3,6 +3,9 @@ import BrandFeatureStyle from './BrandFeatureStyle'
 import Img from '../../atoms/Image/Img'
 import Text from '../../atoms/Text/Text'
 import shippingimg from '../../../assets/icons/freeshiping.svg'
+import supportImg from '../../../assets/icons/clock.svg'
+import starImg from '../../../assets/icons/star.svg'
+import swiftImg from '../../../assets/icons/light.svg'
 
 const BrandFeature = () => {
   return (
@@ -17,11 +20,11 @@ const BrandFeature = () => {
           <div>
             <div className="text-container">
               <Text
-                value={'FREE SHIPPING'}
-                className={'feature-card-headettext'}
+                value={'COMPLIMENTARY SHIPPING'}
+                className={'feature-card-headertext'}
               />
               <Text
-                value={'Fast and reliable delivery'}
+                value={'Speedy and dependable delivery'}
                 className={'feature-card-desc'}
               />
             </div>
@@ -32,16 +35,16 @@ const BrandFeature = () => {
           <Img
             alt={'feature-icon'}
             className={'feature-card-img'}
-            image={shippingimg}
+            image={swiftImg}
           />
           <div>
             <div className="text-container">
               <Text
-                value={'SWIFT TRANSACT'}
-                className={'feature-card-headettext'}
+                value={'PROMPT SERVICE'}
+                className={'feature-card-headertext'}
               />
               <Text
-                value={'Fast and reliable delivery'}
+                value={'Efficient and trustworthy delivery'}
                 className={'feature-card-desc'}
               />
             </div>
@@ -52,16 +55,16 @@ const BrandFeature = () => {
           <Img
             alt={'feature-icon'}
             className={'feature-card-img'}
-            image={shippingimg}
+            image={supportImg}
           />
           <div>
             <div className="text-container">
               <Text
-                value={'24/7 SUPPORT'}
-                className={'feature-card-headettext'}
+                value={'ROUND-THE-CLOCK SUPPORT'}
+                className={'feature-card-headertext'}
               />
               <Text
-                value={'Stand-by customer service'}
+                value={'Available customer service'}
                 className={'feature-card-desc'}
               />
             </div>
@@ -72,16 +75,16 @@ const BrandFeature = () => {
           <Img
             alt={'feature-icon'}
             className={'feature-card-img'}
-            image={shippingimg}
+            image={starImg}
           />
           <div>
             <div className="text-container">
               <Text
-                value={'BEST QUALITY'}
-                className={'feature-card-headettext'}
+                value={'PREMIUM QUALITY'}
+                className={'feature-card-headertext'}
               />
               <Text
-                value={'Fast and reliable delivery'}
+                value={'Top-tier and reliable products'}
                 className={'feature-card-desc'}
               />
             </div>

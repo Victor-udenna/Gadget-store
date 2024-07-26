@@ -12,10 +12,10 @@ const RequestFormStyle = styled.div`
     height: 550px;
     background: linear-gradient(
       90deg,
-      #77582a 6.78%,
-      #d49d4b 53.65%,
-      #d9a14c 62.48%,
-      #735528 100%
+      #8b0000 6.78%,
+      #ff6347 53.65%,
+      #ff4500 62.48%,
+      #b22222 100%
     );
     border-radius: 8px;
     padding: 1.75rem 0px;
@@ -103,11 +103,24 @@ const RequestFormStyle = styled.div`
     line-height: 13.04px;
     text-align: center;
     margin-top: 8px;
+    border: 1px solid ${Colors.disabled};
   }
 
   .request-btn.disabled {
     background-color: ${Colors.disabled};
     cursor: no-drop;
+  }
+
+  @media screen and (max-width: 576px) {
+    .request-container {
+      border-radius: 0px;
+      height: fit-content;
+    }
+
+    .input-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
   }
 `
 export default RequestFormStyle

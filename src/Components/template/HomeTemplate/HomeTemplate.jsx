@@ -1,4 +1,4 @@
-import Hero from '../../Hero/Hero'
+import Hero from '../../organism/Hero/Hero'
 import BestSeller from '../../organism/BestSeller/BestSeller'
 import BrandFeature from '../../organism/BrandFeature/BrandFeature'
 import BrandPanter from '../../organism/BrandPatner/BrandPanter'
@@ -15,16 +15,24 @@ const HomeTemplate = () => {
   return (
     <HomeTemplateStyle>
       <NavBar />
-      <Hero />
+      <section id="home">
+        <Hero />
+      </section>
+      <section id="services">
+        <OurService />
+      </section>
       <BrandFeature />
-      <OurService />
       <Poster />
       <OtherCategory />
       <BestSeller />
       <BrandPanter />
       <Testimonial />
-      <RequestForm />
-      <Footer />
+      <section id="contact">
+        <RequestForm />
+      </section>
+      <section id="about">
+        <Footer />
+      </section>
     </HomeTemplateStyle>
   )
 }

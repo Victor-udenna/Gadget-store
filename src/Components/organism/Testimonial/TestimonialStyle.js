@@ -3,7 +3,7 @@ import Colors from '../../../helpers/Colors'
 
 const TestimonialStyle = styled.div`
   .testimonial {
-    padding: 5.3rem 0rem;
+    padding: 5.3rem 15px;
   }
 
   .testimonial-header {
@@ -28,6 +28,9 @@ const TestimonialStyle = styled.div`
 
   .testimonial-card-container {
     margin-top: 2rem;
+  }
+
+  .testimonial-card-container.desktop {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -42,13 +45,34 @@ const TestimonialStyle = styled.div`
     animation: scroll 25s linear infinite;
   }
 
-  .testimonial-card-container:hover .testimonial-card-list {
+  .testimonial-card-container.desktop:hover .testimonial-card-list {
     animation-play-state: paused;
   }
 
   @keyframes scroll {
     to {
       transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+
+  .testimonial-card-container.mobile {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .testimonial-card-container.desktop {
+      display: none;
+    }
+
+    .testimonial-card-container.mobile {
+      display: block;
+      padding: 15px;
+    }
+
+    .testimonial-card-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
     }
   }
 `

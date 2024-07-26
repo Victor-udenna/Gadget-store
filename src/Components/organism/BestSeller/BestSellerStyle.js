@@ -22,6 +22,12 @@ const BestSellerStyle = styled.div`
     grid-auto-flow: dense;
     gap: 27px;
   }
+
+  @media screen and (max-width: 576px) {
+    .best-seller {
+      padding: 0px 15px;
+    }
+  }
 `
 
 export default BestSellerStyle

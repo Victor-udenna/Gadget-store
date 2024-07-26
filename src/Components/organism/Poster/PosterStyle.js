@@ -8,10 +8,10 @@ const PosterStyle = styled.div`
     justify-content: space-between;
     background: linear-gradient(
       90deg,
-      #77582a 6.78%,
-      #d49d4b 53.65%,
-      #d9a14c 62.48%,
-      #735528 100%
+      #8b0000 6.78%,
+      #ff6347 53.65%,
+      #ff4500 62.48%,
+      #b22222 100%
     );
     height: 347px;
     padding: 0px 56px;
@@ -45,9 +45,69 @@ const PosterStyle = styled.div`
     color: ${Colors.lightText};
   }
 
-  .banner-img {
+  .poster-img {
     width: 595px;
     height: 595px;
+  }
+
+  @media screen and (max-width: 992px) {
+    .poster {
+      display: flex;
+      flex-direction: column;
+      padding: 2.3rem 1.5rem;
+    }
+
+    .poster-header {
+      font-family: Inter;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 28px;
+      text-align: left;
+    }
+
+    .poster-text {
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      text-align: left;
+    }
+
+    .poster-img {
+      width: 400px;
+      height: 400px;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .poster {
+      display: flex;
+      flex-direction: column;
+      height: 406px;
+      border-radius: 0px;
+      padding: 1.7rem 1.1rem;
+    }
+
+    .poster-header {
+      font-family: Inter;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 26.63px;
+      text-align: left;
+    }
+
+    .poster-text {
+      font-family: Inter;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 14.52px;
+      text-align: left;
+    }
+
+    .poster-img {
+      width: 344px;
+      height: 344px;
+    }
   }
 `
 

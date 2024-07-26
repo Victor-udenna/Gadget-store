@@ -36,18 +36,30 @@ const TestimonialCardStyle = styled.div`
     gap: 1.2rem;
   }
 
-  .avatar-img {
-    width: 43px;
-    height: 43px;
-    border-radius: 50%;
-  }
-
   .avatar-name {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+  }
+
+  @media (max-width: 768px) {
+    .testimonial-card {
+      height: 200px;
+      width: 100%;
+      max-width: 410px;
+    }
+
+    .testimonial-card-text {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .avatar-name {
+      font-size: 14px;
+      line-height: 20px;
+    }
   }
 `
 
